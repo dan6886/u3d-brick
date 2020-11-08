@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83ef1ea2-f289-4f98-bf41-42b26c758059" name="Default Changelist" comment="[Update]更新忽略文件">
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/border.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/border.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ti.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ti.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/to.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/to.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Brick.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Brick.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeFormTI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeFormTI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/brick2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/brick2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/line.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FF7B004C-2495-4FF9-8F68-A709BE4708C3/f8/e697eb78/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/71/9581b8c7/ArrayList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FF7B004C-2495-4FF9-8F68-A709BE4708C3/03/5fdf3e59/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/48/791df3b4/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/67/29e5aae4/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeFormTI.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeForm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeFormTI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Brick.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jz88a0D36KpezeeTdCx76T5szN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498008" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3003984" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/build\first.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Administrator\first\build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83ef1ea2-f289-4f98-bf41-42b26c758059" name="Default Changelist" comment="" />
+      <created>1604795410354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604795410354</updated>
+      <workItem from="1604795414866" duration="1000000" />
+      <workItem from="1604807570645" duration="26358000" />
+      <workItem from="1604842627324" duration="323000" />
+    </task>
+    <task id="LOCAL-00001" summary="[Update]更新忽略文件">
+      <created>1604842824763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604842824763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="[Update]更新忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Update]更新忽略文件" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1330" height="162" key="GridCell.Tab.0.bottom" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.0.center" timestamp="1604842526199">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604842526199" />
+    <state width="1330" height="162" key="GridCell.Tab.0.left" timestamp="1604842526199">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604842526199" />
+    <state width="1330" height="162" key="GridCell.Tab.0.right" timestamp="1604842526199">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604842526199" />
+    <state width="1330" height="162" key="GridCell.Tab.1.bottom" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.1.center" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.1.left" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.1.right" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.2.bottom" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.2.center" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.2.left" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.2.right" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.3.bottom" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.3.center" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.3.left" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state width="1330" height="162" key="GridCell.Tab.3.right" timestamp="1604842526200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1330" height="162" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1604842526200" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1604810518128">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604810518128" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
+          <line>94</line>
+          <properties documentPath="C:\Users\Administrator\first\Assets\Scripts\GameManager.cs" initialLine="94">
+            <startOffsets>
+              <option value="2328" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2372" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Brick.cs</url>
+          <line>104</line>
+          <properties documentPath="C:\Users\Administrator\first\Assets\Scripts\Brick.cs" initialLine="104">
+            <startOffsets>
+              <option value="2870" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2894" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

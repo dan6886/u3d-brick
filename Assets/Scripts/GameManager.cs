@@ -10,15 +10,21 @@ public class GameManager : MonoBehaviour
 
 
     GameObject[,] all_cell = new GameObject[24, 10];
+    public Spwaner spwaner;
 
     void Start()
     {
-        Debug.Log(all_cell);
+        spwaner.spwan();
     }
 
     // Update is called once per frame
     void Update()
     {
+    }
+
+    public void getNewBrick()
+    {
+        spwaner.spwan();
     }
 
     public bool isDownEmpty(int row, int col)
@@ -63,6 +69,11 @@ public class GameManager : MonoBehaviour
             var worldPosition = brick.transform.TransformPoint(child.localPosition);
             var cellIndex = worldPositionToArrayIndex((int) worldPosition.x, (int) worldPosition.y);
 
+            if (!isValidAtIndex(cellIndex + Vector2Int.left))
+            {
+                isCanMoveLeft = false;
+            }
+
             if (cellIndex.y - 1 < 0)
             {
                 isCanMoveLeft = false;
@@ -79,7 +90,10 @@ public class GameManager : MonoBehaviour
         {
             var worldPosition = brick.transform.TransformPoint(child.localPosition);
             var cellIndex = worldPositionToArrayIndex((int) worldPosition.x, (int) worldPosition.y);
-
+            if (!isValidAtIndex(cellIndex + Vector2Int.right))
+            {
+                isCanMoveRight = false;
+            }
             if (cellIndex.y + 1 >= 10)
             {
                 isCanMoveRight = false;
@@ -89,10 +103,15 @@ public class GameManager : MonoBehaviour
         return isCanMoveRight;
     }
 
-    public bool isValidAt(int x, int y)
+    public bool isValidAtWolrdPosition(int x, int y)
+    {
+        var index = worldPositionToArrayIndex(x, y);
+        return isValidAtIndex(index);
+    }
+
+    public bool isValidAtIndex(Vector2Int index)
     {
         var isValid = true;
-        var index = worldPositionToArrayIndex(x, y);
         if (index.y < 0 || index.y >= all_cell.GetLength(1))
         {
             return false;
@@ -103,6 +122,15 @@ public class GameManager : MonoBehaviour
             return false;
         }
 
+        if (all_cell[index.x, index.y] != null)
+        {
+            return false;
+        }
+
         return isValid;
+    }
+    public void checkTearDown()
+    {
+        
     }
 }

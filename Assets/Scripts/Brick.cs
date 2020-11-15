@@ -14,7 +14,8 @@ public class Brick : MonoBehaviour
     {
         // transform.localEulerAngles = new Vector3(0, 0, 90);
         // transform.DORotate(new Vector3(0, 0, 90), 0.5f);
-        Invoke(nameof(moveDown), 1f);
+
+        Invoke(nameof(tryMoveDown), 1f);
     }
 
     // Update is called once per frame
@@ -34,36 +35,25 @@ public class Brick : MonoBehaviour
         }
     }
 
-    private void moveDown()
+    private void doMoveDown()
     {
         Debug.Log("moveDown");
         var oldPosition = transform.position;
         var newPosition = oldPosition + Vector3.down;
-        transform.DOLocalMove(newPosition, moveDuration).OnComplete(checkIsCanMove);
+        transform.DOLocalMove(newPosition, moveDuration).OnComplete(onCompleteMoveDown);
     }
 
-    private void checkIsCanMove()
+    private void tryMoveDown()
     {
-        var manager = GetComponentInParent<GameManager>();
-        var isCanMoveDown = true;
-        foreach (Transform child in transform)
+        if (isCanMoveDown())
         {
-            var worldPosition = transform.TransformPoint(child.localPosition);
-            var cellIndex = manager.worldPositionToArrayIndex((int) worldPosition.x, (int) worldPosition.y);
-            if (!manager.isDownEmpty((int) cellIndex.x, (int) cellIndex.y))
-            {
-                isCanMoveDown = false;
-            }
-        }
-
-        if (isCanMoveDown)
-        {
-            Invoke(nameof(moveDown), stepDuration);
+            doMoveDown();
         }
         else
         {
             //降落結束,开始拆分到数组   
             Transform parent = GameObject.Find("root").transform;
+            var manager = GetComponentInParent<GameManager>();
             while (transform.childCount != 0)
             {
                 var child = transform.GetChild(0);
@@ -72,7 +62,32 @@ public class Brick : MonoBehaviour
             }
 
             Destroy(gameObject);
+            
+            manager.getNewBrick();
         }
+    }
+
+    private bool isCanMoveDown()
+    {
+        var manager = GetComponentInParent<GameManager>();
+        var isCan = true;
+        foreach (Transform child in transform)
+        {
+            var worldPosition = transform.TransformPoint(child.localPosition);
+            var cellIndex = manager.worldPositionToArrayIndex((int) worldPosition.x, (int) worldPosition.y);
+            if (!manager.isDownEmpty((int) cellIndex.x, (int) cellIndex.y))
+            {
+                isCan = false;
+                return isCan;
+            }
+        }
+
+        return isCan;
+    }
+
+    private void onCompleteMoveDown()
+    {
+        Invoke(nameof(tryMoveDown), stepDuration);
     }
 
     private void tryMoveLeft()
@@ -103,33 +118,29 @@ public class Brick : MonoBehaviour
     {
         var manager = GetComponentInParent<GameManager>();
         Debug.Log("try change");
-        if (transform.name == "ti")
+        var formTi = GetComponent<BaseChangeForm>();
+        State state = formTi.nextState();
+        var child1 = gameObject.transform.Find("1").transform;
+        var child2 = gameObject.transform.Find("2").transform;
+        var child3 = gameObject.transform.Find("3").transform;
+        var child4 = gameObject.transform.Find("4").transform;
+        var c1 = child1.position + state.v1;
+        var c2 = child2.position + state.v2;
+        var c3 = child3.position + state.v3;
+        var c4 = child4.position + state.v4;
+        if (manager.isValidAtWolrdPosition((int) c1.x, (int) c1.y)
+            && manager.isValidAtWolrdPosition((int) c2.x, (int) c2.y)
+            && manager.isValidAtWolrdPosition((int) c3.x, (int) c3.y)
+            && manager.isValidAtWolrdPosition((int) c4.x, (int) c4.y))
         {
-            var formTi = GetComponent<ChangeFormTI>();
-            State state = formTi.nextState();
-            var child1 = gameObject.transform.Find("1").transform;
-            var child2 = gameObject.transform.Find("2").transform;
-            var child3 = gameObject.transform.Find("3").transform;
-            var child4 = gameObject.transform.Find("4").transform;
-            var c1 = child1.position + state.v1;
-            var c2 = child2.position + state.v2;
-            var c3 = child3.position + state.v3;
-            var c4 = child4.position + state.v4;
-            if (manager.isValidAt((int) c1.x, (int) c1.y)
-                && manager.isValidAt((int) c2.x, (int) c2.y)
-                && manager.isValidAt((int) c3.x, (int) c3.y)
-                && manager.isValidAt((int) c4.x, (int) c4.y))
-            {
-                child1.position += state.v1;
-                child2.position += state.v2;
-                child3.position += state.v3;
-                child4.position += state.v4;
-            }
-            else
-            {
-                formTi.rollBackState();
-            }
-
+            child1.position += state.v1;
+            child2.position += state.v2;
+            child3.position += state.v3;
+            child4.position += state.v4;
+        }
+        else
+        {
+            formTi.rollBackState();
         }
     }
 

@@ -8,14 +8,34 @@ public class Brick : MonoBehaviour
 {
     // Start is called before the first frame update
     public float moveDuration = 0f;
-    public float stepDuration = 1f;
+    public float stepDuration = 0.5f;
+    private GameManager manager;
+    [SerializeField] public GameObject tile;
 
     void Start()
     {
-        // transform.localEulerAngles = new Vector3(0, 0, 90);
-        // transform.DORotate(new Vector3(0, 0, 90), 0.5f);
-
+        manager = GetComponentInParent<GameManager>();
+        buildUp();
         Invoke(nameof(tryMoveDown), 1f);
+    }
+
+    private void buildUp()
+    {
+        var form = GetComponent<BaseChangeForm>();
+        var state = form.getInitPos();
+
+        var t1 = Instantiate(tile, transform);
+        t1.name = "1";
+        t1.transform.position = state.v1;
+        var t2 = Instantiate(tile, transform);
+        t2.name = "2";
+        t2.transform.position = state.v2;
+        var t3 = Instantiate(tile, transform);
+        t3.name = "3";
+        t3.transform.position = state.v3;
+        var t4 = Instantiate(tile, transform);
+        t4.name = "4";
+        t4.transform.position = state.v4;
     }
 
     // Update is called once per frame
@@ -53,23 +73,24 @@ public class Brick : MonoBehaviour
         {
             //降落結束,开始拆分到数组   
             Transform parent = GameObject.Find("root").transform;
-            var manager = GetComponentInParent<GameManager>();
+            //todo 这里记录需要检查的物体
+            List<Vector2Int> needCheck = new List<Vector2Int>();
             while (transform.childCount != 0)
             {
                 var child = transform.GetChild(0);
                 child.parent = parent;
-                manager.setLocation(child.gameObject);
+                var index = manager.setLocation(child.gameObject);
+                needCheck.Add(index);
             }
 
             Destroy(gameObject);
-            
+            manager.checkTearDown(needCheck);
             manager.getNewBrick();
         }
     }
 
     private bool isCanMoveDown()
     {
-        var manager = GetComponentInParent<GameManager>();
         var isCan = true;
         foreach (Transform child in transform)
         {
@@ -92,8 +113,6 @@ public class Brick : MonoBehaviour
 
     private void tryMoveLeft()
     {
-        var manager = GetComponentInParent<GameManager>();
-
         if (manager.isCanMoveLeft(gameObject))
         {
             var oldPosition = transform.position;
@@ -104,8 +123,6 @@ public class Brick : MonoBehaviour
 
     private void tryMoveRight()
     {
-        var manager = GetComponentInParent<GameManager>();
-
         if (manager.isCanMoveRight(gameObject))
         {
             var oldPosition = transform.position;
@@ -116,7 +133,6 @@ public class Brick : MonoBehaviour
 
     private void tryChange()
     {
-        var manager = GetComponentInParent<GameManager>();
         Debug.Log("try change");
         var formTi = GetComponent<BaseChangeForm>();
         State state = formTi.nextState();

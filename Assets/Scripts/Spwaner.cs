@@ -5,9 +5,8 @@ using UnityEngine;
 public class Spwaner : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] public GameObject[] prefabs = new GameObject[5];
-
-    public GameObject parent;
+    [SerializeField] public GameObject[] prefabs = new GameObject[7];
+    [SerializeField] public GameObject parent;
 
     public void spwan()
     {

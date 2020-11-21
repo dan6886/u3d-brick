@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    private GameObject[] group; 
+    public GameObject[] group; 
     void Start()
     {
         

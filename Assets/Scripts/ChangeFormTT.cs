@@ -8,6 +8,10 @@ public class ChangeFormTT : BaseChangeForm
     // Start is called before the first frame update
     void Start()
     {
+        initPos.v1 = Vector3.left;
+        initPos.v2 = Vector3.up;
+        initPos.v3 = Vector3.zero;
+        initPos.v4 = Vector3.right;
         Brick.State state1;
         state1.v1 = Vector3.right + Vector3.up;
         state1.v2 = Vector3.down + Vector3.right;

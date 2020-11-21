@@ -6,6 +6,7 @@ public class BaseChangeForm : MonoBehaviour
 {
     protected ArrayList form = new ArrayList();
     private int index = 0;
+    protected Brick.State initPos;
 
     public Brick.State nextState()
     {
@@ -17,5 +18,10 @@ public class BaseChangeForm : MonoBehaviour
     public void rollBackState()
     {
         index--;
+    }
+
+    public Brick.State getInitPos()
+    {
+        return initPos;
     }
 }
